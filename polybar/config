@@ -12,7 +12,7 @@ alert = #bd2c40
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 50%
-height = 64
+height = 48
 offset-x = 50%
 radius = 0
 fixed-center = false
@@ -23,13 +23,13 @@ foreground = ${colors.foreground}
 line-size = 3
 line-color = #f00
 
-border-size = 4
+border-size = 6
 border-color = #00000000
 
 padding-left = 5
 padding-right = 5
-border-top = 5
-border-bottom = 1
+border-top = 8
+border-bottom = 0
 border-left = 0
 border-right = 0
 
@@ -220,15 +220,15 @@ format-muted-foreground = ${colors.foreground-alt}
 label-muted = "x"
 
 bar-volume-width = 10
-bar-volume-foreground-0 = #55aa55
-bar-volume-foreground-1 = #55aa55
-bar-volume-foreground-2 = #55aa55
-bar-volume-foreground-3 = #55aa55
-bar-volume-foreground-4 = #55aa55
-bar-volume-foreground-5 = #f5a70a
-bar-volume-foreground-6 = #ff5555
+bar-volume-foreground-0 = #00c1e4
+bar-volume-foreground-1 = #00c1e4
+bar-volume-foreground-2 = #00c1e4
+bar-volume-foreground-3 = #00c1e4
+bar-volume-foreground-4 = #00c1e4
+bar-volume-foreground-5 = #00c1e4
+bar-volume-foreground-6 = #00c1e4
 bar-volume-gradient = false
-bar-volume-indicator = |
+bar-volume-indicator =
 bar-volume-indicator-font = 2
 bar-volume-fill = ─
 bar-volume-fill-font = 2
